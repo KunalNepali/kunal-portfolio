@@ -1,4 +1,5 @@
 import Image from "next/image";
+import profileImage from "../../public/kunal-profil.jpeg";
 const projects = [
   {
     number: "01",
@@ -135,13 +136,12 @@ export default function Home() {
           </div>
 
           <div className="profile-image">
-  <Image
-    src="/kunal-profil.jpeg"
-    alt="Kunal Nepali"
-    width={700}
-    height={700}
-    priority
-  />
+ <Image
+  src={profileImage}
+  alt="Kunal Nepali"
+  priority
+  sizes="(max-width: 850px) 100vw, 360px"
+/>
 </div>
 
           <div>
