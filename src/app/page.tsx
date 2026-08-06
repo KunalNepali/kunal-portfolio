@@ -246,12 +246,12 @@ export default function Home() {
       <section className="fit-section">
         <div className="shell fit-grid">
           <div className="fit-intro">
-            <p className="kicker light">Why Veda / Role fit</p>
+            <p className="kicker light">Why Technical Support</p>
 
             <h2>Ready to help users feel confident with software.</h2>
 
             <p>
-              Veda needs someone who can learn a product deeply, guide clients
+              For a company that needs someone who can learn a product deeply, guide clients
               clearly, document accurately, and build trust. That is the
               direction I&apos;m already growing in.
             </p>
