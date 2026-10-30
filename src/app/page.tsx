@@ -18,7 +18,22 @@ const projects = [
     tags: ["Flutter", "Firebase", "Supabase", "SQLite"],
   },
   {
-    number: "03",
+  number: "03",
+  title: "New Macchindra Leather and Bag Store",
+  type: "Website Development & Digital Operations",
+  description:
+    "Developed and manage a business website while handling SEO, product listings, online customer inquiries, promotional content, and digital operations for a retail business.",
+  tags: [
+    "ASP.NET Core MVC",
+    "Website Management",
+    "SEO",
+    "Google Search Console",
+    "Content Creation",
+    "Meta Ads",
+  ],
+},
+  {
+    number: "04",
     title: "E-commerce & Python Labs",
     type: "Learning projects",
     description:
@@ -63,16 +78,21 @@ const tools = [
 ];
 
 const skills = [
-  "Technical Support",
+  "Website Management",
+  "E-commerce Operations",
+  "SEO Management",
+  "Google Search Console",
+  "Content Creation",
+  "Social Media Management",
+  "Meta Ads",
+  "Product Management",
+  "Customer Support",
   "Flutter",
-  "Kotlin",
-  "SQL",
   "Java",
-  "Firebase",
-  "Supabase",
-  "SQLite",
-  "Mobile Development",
-  "AI-assisted workflows",
+  "JavaScript",
+  "ASP.NET Core",
+  "SQL",
+  "React",
   "On-page SEO",
 ];
 
@@ -102,18 +122,20 @@ export default function Home() {
         <div className="hero-copy">
           <div className="eyebrow">
             <span className="pulse" />
-            Open to technical support opportunities
+            OOpen to Digital Operations & Technical Support Opportunities
           </div>
 
           <h1>
             I turn technical problems into <em>clear answers.</em>
           </h1>
 
-          <p className="hero-intro">
-            I&apos;m Kunal Nepali — a CSIT student and L1 support
-            professional in Lalitpur, helping customers solve internet, IPTV,
-            LAN, Wi-Fi, router, and ONU issues with patience and precision.
-          </p>
+<p className="hero-intro">
+  I&apos;m Kunal Nepali — a CSIT student and customer support
+  professional with hands-on experience in website development,
+  e-commerce operations, SEO management, and digital content creation.
+  I enjoy building useful digital experiences and helping businesses
+  strengthen their online presence.
+</p>
 
           <div className="hero-actions">
             <a className="button primary" href="#work">
@@ -192,38 +214,47 @@ export default function Home() {
         </div>
 
         <div className="experience-grid">
-          <article className="experience-card">
-            <div className="experience-top">
-              <div>
-                <p className="overline">Current role</p>
-                <h3>Customer Support Representative</h3>
-                <p>WorldLink Process · Kalash Services</p>
-              </div>
+<article className="experience-card">
+  <div className="experience-top">
+    <div>
+      <p className="overline">Business & Digital Operations</p>
+      <h3>Website & Digital Operations</h3>
+      <p>New Macchindra Leather and Bag Store</p>
+    </div>
 
-              <span>2026 — Present</span>
-            </div>
+    <span>2025 — Present</span>
+  </div>
 
-            <ul>
-              <li>
-                <span>01</span>
-                Provide L1 technical support for internet and IPTV customers
-                through inbound calls.
-              </li>
-              <li>
-                <span>02</span>
-                Diagnose LAN, Wi-Fi, router, and ONU connectivity issues.
-              </li>
-              <li>
-                <span>03</span>
-                Log and track issues in CSupport and handle calls using Ameyo.
-              </li>
-              <li>
-                <span>04</span>
-                Escalate complex cases with clear context for higher-level
-                teams.
-              </li>
-            </ul>
-          </article>
+  <ul>
+    <li>
+      <span>01</span>
+      Developed and manage the business website using ASP.NET Core MVC.
+    </li>
+    <li>
+      <span>02</span>
+      Manage website content, product information, service pages, and regular updates.
+    </li>
+    <li>
+      <span>03</span>
+      Implement SEO improvements, metadata, sitemap.xml, robots.txt,
+      and Google Search Console integration.
+    </li>
+    <li>
+      <span>04</span>
+      Manage online product listings and respond to customer inquiries
+      through social media and online marketplaces.
+    </li>
+    <li>
+      <span>05</span>
+      Coordinate customer orders, delivery arrangements, and follow-up communication.
+    </li>
+    <li>
+      <span>06</span>
+      Create promotional content, product descriptions, social media captions,
+      and assist with Meta Ads campaigns.
+    </li>
+  </ul>
+</article>
 
           <aside className="toolbox">
             <p className="overline">Tools I work with</p>
